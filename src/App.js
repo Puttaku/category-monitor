@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <input type="number" onChange={handleChange}/>
+      <input type="text" onChange={handleChange}/>
       <table className="cateList">
         <tbody>
           {filterData.length ? filterData.map((item, index) => (
